@@ -7,10 +7,10 @@ Copy and paste FileDownloaderService.java file in your project and you are ready
 
 # Uses:
 ```java
-    class imageDownloadReceiver1 extends ResultReceiver
+    class imageDownloadReceiver extends ResultReceiver
     {
 
-        public imageDownloadReceiver1(Handler handler)
+        public imageDownloadReceiver(Handler handler)
         {
             super(handler);
         }
